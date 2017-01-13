@@ -81,7 +81,7 @@ Figure 2
 <script src="/path/to/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <pre><code class="cpp">
-#include /<iostream.h>
+#include </iostream.h>
 
 int main()
 {
