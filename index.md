@@ -30,7 +30,7 @@ loop.
 Theory
 ------
 
-After some time spent researching on the internet and familiarizing myself with
+After some time spent researching on the Internet and familiarizing myself with
 the best way to accomplish the task, I decided to refresh my memories with the
 theory of how MOSFETs and Transistors worked. In short they’re solid state
 switches that can turned ‘on and off’ with a voltage signal. In technical
@@ -56,16 +56,12 @@ traditional way for directional motor control was to use an H-Bridge. I didn’t
 have one. But I knew that an H-Bridge effectively amounts to 4 MOSFETS (for a
 single channel). As we can see below:
 
-Figure 1
-
-Figure 1
+![Figure 1](http://www.bristolwatch.com/ele/moshbridge/mosh8.png "Standard H-Bridge with both n and p type MOSFETs")
 
 You’ll note that it uses the following to act as 4 switches:
 
 -   2 n-type MOSFETs
-
 -   2 p-type MOSFETs
-
 -   2 n-type Transistors
 
 The transistors exist to isolate the microcontroller from the higher voltage and
@@ -78,3 +74,14 @@ built is shown below:
 Figure 2
 
 Figure 2
+
+##Code
+
+<link rel="stylesheet" href="/path/to/styles/default.css">
+<script src="/path/to/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+''' C++
+#include<iostream.h>
+
+'''
