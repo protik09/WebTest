@@ -77,6 +77,12 @@ Figure 2
 
 ##Code
 
-'''C
-#include<iostream.h>
+'''
+#include <iostream.h>
+
+int main()
+{
+	
+}
+
 '''
