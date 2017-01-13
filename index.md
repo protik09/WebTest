@@ -80,9 +80,8 @@ Figure 2
 <link rel="stylesheet" href="/path/to/styles/default.css">
 <script src="/path/to/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-<pre><code class="cpp">...</code></pre>
+<pre><code class="cpp">
 
-'''
 #include <iostream.h>
 
 int main()
@@ -90,4 +89,4 @@ int main()
 ;
 }
 
-'''
+</code></pre>
