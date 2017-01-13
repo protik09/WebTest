@@ -81,8 +81,9 @@ Figure 2
 
 ```cpp
 #include <iostream.h>
+#include "streaming.h"
 
-int main()
+int main( )
 {
 	return 0;
 }
