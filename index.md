@@ -1,14 +1,12 @@
-My wanderings into the world of Mechatronics
-============================================
+#My wanderings into the world of Mechatronics
 
-Introduction
-------------
+##Introduction
 
 As a pure Mechanical engineer I never had much time for electrical systems and
 their ilk. It was considered anathema to the very core concept of "mechanical"
 engineering. But my roommate at University worked in robotics and he
 occasionally needed help when he was swamped. I always wanted to learn how to
-solder, so I watched a couple youtube videos and off I went. Got an Arduino
+solder, so I watched a couple Youtube videos and off I went. Got an Arduino
 starter kit for my birthday - turned an LED on and off and never looked back; I
 was addicted.
 
@@ -27,8 +25,7 @@ Recently I was given the task of building a small and simple motor controller
 change the speed and direction of a motor, including a microcontroller into the
 loop.
 
-Theory
-------
+##Theory
 
 After some time spent researching on the Internet and familiarizing myself with
 the best way to accomplish the task, I decided to refresh my memories with the
@@ -39,18 +36,23 @@ passed to their **Gate/Base**. But an advantage of these devices is that, like a
 dimmer switch, they have varying values between “**On and Off**” allowing control
 over the amount of current flowing through the switch.
 
-There are two types of transistors: Bipolar Junction Transistors **(BJTs)** and
-Field Effect Transistors **(FETs)**.
+There are two types of transistors that are important is this context: Bipolar
+Junction Transistors **(BJTs)** and Field Effect Transistors **(FETs)**.
 
-### MOSFETs
+###Transistors
+
+Transistors are
+
+###MOSFETs
 
 The term MOSFET stands for Metal-Oxide-Semiconductor Field Effect Transistor. It
 has three terminals that are known as *Gate*, *Source* and *Drain*. It has an insulated gate, whose voltage determines the conductivity of the FET.
 
-![Figure 1](https://upload.wikimedia.org/wikipedia/commons/a/a5/MOSFET_Structure.png "MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white")
+![Figure 1](https://upload.wikimedia.org/wikipedia/commons/a/a5/MOSFET_Structure.png "MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white)")
+MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white)
 
-Equipment used
---------------
+
+##Equipment used
 
 After some time spent researching on the Internet and familiarizing myself with
 the best way to accomplish the task, I took stock of the equipment I had. The
@@ -109,7 +111,7 @@ int direction = 0;
 void setup()
 {
   attachInterrupt(digitalPinToInterrupt(EncdAPin), chkEncdA, RISING); // Interrupt on DPin 2
-  
+
   // Initialise Arduino UNO pins
   pinMode(PowerPin1, OUTPUT);
   pinMode(PowerPin2, OUTPUT);
@@ -124,11 +126,11 @@ void loop()
 {
   int MotorSpeed = 0;
   int dirandSpeed = ReadPotVal();
-  
+
   // Serial.println(dirandSpeed); // Be careful with Serial.prints in this sketch it overloads the serial buffer
-  // since there is no delay. But the UNO doesn't operate fast enought to overflow the buffer and crash it. 
+  // since there is no delay. But the UNO doesn't operate fast enought to overflow the buffer and crash it.
   // Only the Arduino DUE(ARM) and possibly Leonardo (ATMega32u4) can cause crashes.
-  
+
   if(dirandSpeed<455) // 512 is the halfway point of the potentiometer readout
   {
     MotorSpeed = map(dirandSpeed, 500, 0, 0, 255); // Leave 100 values in the middle as deadband
@@ -198,13 +200,13 @@ void chkEncdA()
   }
 }
 
-void clearAndHome() 
-{ 
-  Serial.write(27); 
-  Serial.print("[2J"); // clear screen 
-  Serial.write(27); // ESC 
-  Serial.print("[H"); // cursor to home 
-} 
+void clearAndHome()
+{
+  Serial.write(27);
+  Serial.print("[2J"); // clear screen
+  Serial.write(27); // ESC
+  Serial.print("[H"); // cursor to home
+}
 
 void printRots()
 {
@@ -216,6 +218,6 @@ void printRots()
 
 void plannedObso()
 {
-  
+
 }
 ```
