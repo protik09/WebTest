@@ -35,17 +35,19 @@ the best way to accomplish the task, I decided to refresh my memories with the
 theory of how MOSFETs and Transistors worked. In short they’re solid state
 switches that can turned ‘on and off’ with a voltage signal. In technical
 parlance they would act similar to SPST switches if a **HIGH/LOW** signal is
-passed to their *Gate/Base*. But an advantage of these devices is that, like a
-dimmer switch, they have varying values between “*On and Off*” allowing control
+passed to their **Gate/Base**. But an advantage of these devices is that, like a
+dimmer switch, they have varying values between “**On and Off**” allowing control
 over the amount of current flowing through the switch.
 
-There are two types of transistors: Bipolar Junction Transistors (**BJTs**) and
-Field Effect Transistors (**FETs**).
+There are two types of transistors: Bipolar Junction Transistors **(BJTs)** and
+Field Effect Transistors **(FETs)**.
 
 ### MOSFETs
 
 The term MOSFET stands for Metal-Oxide-Semiconductor Field Effect Transistor. It
-has three terminals that are known as *Gate*, *Source* and *Drain*
+has three terminals that are known as *Gate*, *Source* and *Drain*. It has an insulated gate, whose voltage determines the conductivity of the FET.
+
+![Figure 1](https://en.wikipedia.org/wiki/File:MOSFET_Structure.png "MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white")
 
 Equipment used
 --------------
@@ -56,7 +58,7 @@ traditional way for directional motor control was to use an H-Bridge. I didn’t
 have one. But I knew that an H-Bridge effectively amounts to 4 MOSFETS (for a
 single channel). As we can see below:
 
-![Figure 1](http://www.bristolwatch.com/ele/moshbridge/mosh8.png "Standard H-Bridge with both n and p type MOSFETs")
+![Figure 3](http://www.bristolwatch.com/ele/moshbridge/mosh8.png "Standard H-Bridge with both n and p type MOSFETs")
 
 You’ll note that it uses the following to act as 4 switches:
 
@@ -71,13 +73,9 @@ pMOSFET, so I decided to disregard them for my particular purposes. I decided to
 use 4 nMOSFETs and some programming to simulate the same effect. The circuit I
 built is shown below:
 
-Figure 2
-
-Figure 2
+![Figure 4](FIGURE2_LINK.PNG "H-bridge with only n-MOSFETs")
 
 ##Code
-
-
 
 ```cpp
 /* Control a motor direction and speed with a potentiometer using n-MOSFETS as an H Bridge */
