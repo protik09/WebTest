@@ -14,7 +14,7 @@ was addicted.
 
 An interesting thing I discovered in my musings is that because I was learning
 in an unstructured environment, i.e., I was teaching myself, I couldn’t be
-trusted to remember everything. Right from outset, I was obsessed about
+trusted to remember everything. Right from outset, I was obsessed about 
 documenting everything I noticed. I wrote down all my projects in a little lab
 book. My internal policy became that I should be able to leave my projects for
 years and know exactly what I did and why I did it when I checked my notes. But
@@ -27,7 +27,7 @@ Recently I was given the task of building a small and simple motor controller
 change the speed and direction of a motor, including a microcontroller into the
 loop.
 
- Equipment used
+Equipment used
 ---------------
 
 After some time spent researching on the internet and familiarizing myself with
