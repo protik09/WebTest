@@ -34,13 +34,13 @@ After some time spent researching on the Internet and familiarizing myself with
 the best way to accomplish the task, I decided to refresh my memories with the
 theory of how MOSFETs and Transistors worked. In short they’re solid state
 switches that can turned ‘on and off’ with a voltage signal. In technical
-parlance they would act similar to SPST switches if a *HIGH/LOW* signal is
+parlance they would act similar to SPST switches if a **HIGH/LOW** signal is
 passed to their *Gate/Base*. But an advantage of these devices is that, like a
 dimmer switch, they have varying values between “*On and Off*” allowing control
 over the amount of current flowing through the switch.
 
-There are two types of transistors: Bipolar Junction Transistors (BJTs) and
-Field Effect Transistors (FETs).
+There are two types of transistors: Bipolar Junction Transistors (**BJTs**) and
+Field Effect Transistors (**FETs**).
 
 ### MOSFETs
 
