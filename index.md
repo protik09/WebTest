@@ -77,13 +77,15 @@ Figure 2
 
 ##Code
 
-<link rel="stylesheet" href="/path/to/styles/default.css">
-<script src="/path/to/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<pre><code class="cpp">
-#include <<iostream.h>>
+'''c_cpp
+#include <iostream.h>
 
 int main()
 {
 	return 0;
 }
+'''
+<link rel="stylesheet" href="/path/to/styles/default.css">
+<script src="/path/to/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<pre><code class="cpp">...</code></pre>
