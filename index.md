@@ -47,7 +47,7 @@ Field Effect Transistors **(FETs)**.
 The term MOSFET stands for Metal-Oxide-Semiconductor Field Effect Transistor. It
 has three terminals that are known as *Gate*, *Source* and *Drain*. It has an insulated gate, whose voltage determines the conductivity of the FET.
 
-![Figure 1](hhttps://upload.wikimedia.org/wikipedia/commons/a/a5/MOSFET_Structure.png "MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white")
+![Figure 1](https://upload.wikimedia.org/wikipedia/commons/a/a5/MOSFET_Structure.png "MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white")
 
 Equipment used
 --------------
