@@ -1,6 +1,6 @@
-#My wanderings into the world of Mechatronics
+# My wanderings into the world of Mechatronics
 
-##Introduction
+## Introduction
 
 As a pure Mechanical engineer I never had much time for electrical systems and
 their ilk. It was considered anathema to the very core concept of "mechanical"
@@ -25,7 +25,7 @@ Recently I was given the task of building a small and simple motor controller
 change the speed and direction of a motor, including a microcontroller into the
 loop.
 
-##Theory
+## Theory
 
 After some time spent researching on the Internet and familiarizing myself with
 the best way to accomplish the task, I decided to refresh my memories with the
@@ -39,11 +39,11 @@ over the amount of current flowing through the switch.
 There are two types of transistors that are important is this context: Bipolar
 Junction Transistors **(BJTs)** and Field Effect Transistors **(FETs)**.
 
-###Transistors
+### Transistors
 
 Transistors are
 
-###MOSFETs
+### MOSFETs
 
 The term MOSFET stands for Metal-Oxide-Semiconductor Field Effect Transistor. It
 has three terminals that are known as *Gate*, *Source* and *Drain*. It has an insulated gate, whose voltage determines the conductivity of the FET.
@@ -52,7 +52,7 @@ has three terminals that are known as *Gate*, *Source* and *Drain*. It has an in
 MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white)
 
 
-##Equipment used
+## Equipment used
 
 After some time spent researching on the Internet and familiarizing myself with
 the best way to accomplish the task, I took stock of the equipment I had. The
@@ -77,7 +77,7 @@ built is shown below:
 
 ![Figure 4](FIGURE2_LINK.PNG "H-bridge with only n-MOSFETs")
 
-##Code
+## Code
 
 ```cpp
 /* Control a motor direction and speed with a potentiometer using n-MOSFETS as an H Bridge */
