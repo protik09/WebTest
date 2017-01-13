@@ -42,7 +42,7 @@ over the amount of current flowing through the switch.
 There are two types of transistors: Bipolar Junction Transistors (BJTs) and
 Field Effect Transistors (FETs).
 
-\#\#\# MOSFETs
+### MOSFETs
 
 The term MOSFET stands for Metal-Oxide-Semiconductor Field Effect Transistor. It
 has three terminals that are known as *Gate*, *Source* and *Drain*
@@ -50,7 +50,7 @@ has three terminals that are known as *Gate*, *Source* and *Drain*
 Equipment used
 --------------
 
-After some time spent researching on the internet and familiarizing myself with
+After some time spent researching on the Internet and familiarizing myself with
 the best way to accomplish the task, I took stock of the equipment I had. The
 traditional way for directional motor control was to use an H-Bridge. I didn’t
 have one. But I knew that an H-Bridge effectively amounts to 4 MOSFETS (for a
