@@ -79,13 +79,11 @@ Figure 2
 
 
 
-```c_cpp
-
+```cpp
 #include <iostream.h>
 
 int main()
 {
 	return 0;
 }
-
 ```
