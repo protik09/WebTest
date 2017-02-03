@@ -39,16 +39,25 @@ over the amount of current flowing through the switch.
 There are two types of transistors that are important is this context: Bipolar
 Junction Transistors **(BJTs)** and Field Effect Transistors **(FETs)**.
 
-### Transistors
+### Bipolar Junction Transistors (BJTs)
 
-Transistors are
+Transistors are an electronic device made from semiconductor which tend to come in 2 flavours. It should be note that they usually come with 3 pins - Collecter(C), Base(B) and Emitter*(E)
+- NPN Junction Transistor
+![Figure 1](https://upload.wikimedia.org/wikipedia/commons/4/49/NPN_BJT_-_Structure_%26_circuit.svg"Structure and use of NPN transistor.")
+
+- PNP Junction Transistor
+![Figure 2](https://upload.wikimedia.org/wikipedia/commons/9/90/PNP_BJT_-_Structure_%26_circuit.svg"Structure and use of PNP transistor.")
+
+In Figure 1 we can see that in order to activate the NPN transistor, V<sub>BE</sub> must be *above* a certain voltage known as the **cut-in voltage**. After activation, current can flow freely through the transistor.
+
+In Figure 2, it is actually the reverse of what we did for the NPN transistor. In order to activate the PNP transistor V<sub>EB</sub> (Note the reversed voltage direction compared to Figure 1) actually has to be *above* its **cut-in voltage**.
 
 ### MOSFETs
 
 The term MOSFET stands for Metal-Oxide-Semiconductor Field Effect Transistor. It
 has three terminals that are known as *Gate*, *Source* and *Drain*. It has an insulated gate, whose voltage determines the conductivity of the FET.
 
-![Figure 1](https://upload.wikimedia.org/wikipedia/commons/a/a5/MOSFET_Structure.png "MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white)")
+![Figure 3](https://upload.wikimedia.org/wikipedia/commons/a/a5/MOSFET_Structure.png "MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white)")
 MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white)
 
 
@@ -60,7 +69,7 @@ traditional way for directional motor control was to use an H-Bridge. I didn’t
 have one. But I knew that an H-Bridge effectively amounts to 4 MOSFETS (for a
 single channel). As we can see below:
 
-![Figure 3](http://www.bristolwatch.com/ele/moshbridge/mosh8.png "Standard H-Bridge with both n and p type MOSFETs")
+![Figure 4](http://www.bristolwatch.com/ele/moshbridge/mosh8.png "Standard H-Bridge with both n and p type MOSFETs")
 
 You’ll note that it uses the following to act as 4 switches:
 
