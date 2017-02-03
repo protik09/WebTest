@@ -45,15 +45,13 @@ Transistors are an electronic device made from semiconductor which tend to come 
 
 - NPN Junction Transistor
 
-![Figure 1](2PNP_BJT.png)
-
-Figure 1 - Structure and use of NPN transistor.
+  ![Figure 1](2PNP_BJT.png)
+  Figure 1 - Structure and use of NPN transistor.
 
 - PNP Junction Transistor
 
-![Figure 2](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/PNP_BJT_-_Structure_%26_circuit.svg/250px-PNP_BJT_-_Structure_%26_circuit.svg.png"Structure and use of PNP transistor.")
-
-Figure 2 - Structure and use of PNP transistor.
+  ![Figure 2](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/PNP_BJT_-_Structure_%26_circuit.svg/250px-PNP_BJT_-_Structure_%26_circuit.svg.png)
+  Figure 2 - Structure and use of PNP transistor.
 
 In Figure 1 we can see that in order to activate the NPN transistor, V<sub>BE</sub> must be *above* a certain voltage known as the **cut-in voltage**. After activation, current can flow freely through the transistor.
 
