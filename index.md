@@ -41,12 +41,15 @@ Junction Transistors **(BJTs)** and Field Effect Transistors **(FETs)**.
 
 ### Bipolar Junction Transistors (BJTs)
 
-Transistors are an electronic device made from semiconductor which tend to come in 2 flavours. It should be note that they usually come with 3 pins - Collecter(C), Base(B) and Emitter*(E)
+Transistors are an electronic device made from semiconductor which tend to come in 2 flavours. It should be note that they usually come with 3 terminals - Collecter(C), Base(B) and Emitter*(E)
+
 - NPN Junction Transistor
-![Figure 1](https://upload.wikimedia.org/wikipedia/commons/4/49/NPN_BJT_-_Structure_%26_circuit.svg"Structure and use of NPN transistor.")
+![Figure 1](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/NPN_BJT_-_Structure_%26_circuit.svg/250px-NPN_BJT_-_Structure_%26_circuit.svg.png"Structure and use of NPN transistor.")
+Figure 1 - Structure and use of NPN transistor.
 
 - PNP Junction Transistor
-![Figure 2](https://upload.wikimedia.org/wikipedia/commons/9/90/PNP_BJT_-_Structure_%26_circuit.svg"Structure and use of PNP transistor.")
+![Figure 2](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/PNP_BJT_-_Structure_%26_circuit.svg/250px-PNP_BJT_-_Structure_%26_circuit.svg.png"Structure and use of PNP transistor.")
+Figure 2 - Structure and use of PNP transistor.
 
 In Figure 1 we can see that in order to activate the NPN transistor, V<sub>BE</sub> must be *above* a certain voltage known as the **cut-in voltage**. After activation, current can flow freely through the transistor.
 
@@ -58,7 +61,7 @@ The term MOSFET stands for Metal-Oxide-Semiconductor Field Effect Transistor. It
 has three terminals that are known as *Gate*, *Source* and *Drain*. It has an insulated gate, whose voltage determines the conductivity of the FET.
 
 ![Figure 3](https://upload.wikimedia.org/wikipedia/commons/a/a5/MOSFET_Structure.png "MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white)")
-MOSFET showing gate (G), body (B), source (S) and drain (D) terminals. The gate is separated from the body by an insulating layer (white)
+Figure 3 - MOSFET showing Gate (G), Body (B), Source (S) and Drain (D) terminals. The gate is separated from the body by an insulating layer (white)
 
 
 ## Equipment used
@@ -70,6 +73,7 @@ have one. But I knew that an H-Bridge effectively amounts to 4 MOSFETS (for a
 single channel). As we can see below:
 
 ![Figure 4](http://www.bristolwatch.com/ele/moshbridge/mosh8.png "Standard H-Bridge with both n and p type MOSFETs")
+Figure 4 - Standard H-Bridge with both n and p type MOSFETs.
 
 You’ll note that it uses the following to act as 4 switches:
 
@@ -84,7 +88,8 @@ pMOSFET, so I decided to disregard them for my particular purposes. I decided to
 use 4 nMOSFETs and some programming to simulate the same effect. The circuit I
 built is shown below:
 
-![Figure 4](FIGURE2_LINK.PNG "H-bridge with only n-MOSFETs")
+![Figure 5](FIGURE2_LINK.PNG "H-bridge with only n-MOSFETs")
+Figure 5 - H-bridge with only n-MOSFETs
 
 ## Code
 
