@@ -45,7 +45,7 @@ Transistors are an electronic device made from semiconductor which tend to come 
 
 - NPN Junction Transistor
 
-![Figure 1](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/NPN_BJT_-_Structure_%26_circuit.svg/250px-NPN_BJT_-_Structure_%26_circuit.svg.png"Structure and use of NPN transistor.")
+![Figure 1](2PNP_BJT.png"Structure and use of NPN transistor.")
 
 Figure 1 - Structure and use of NPN transistor.
 
