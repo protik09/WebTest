@@ -44,10 +44,12 @@ Junction Transistors **(BJTs)** and Field Effect Transistors **(FETs)**.
 Transistors are an electronic device made from semiconductor which tend to come in 2 flavours. It should be note that they usually come with 3 terminals - Collecter(C), Base(B) and Emitter*(E)
 
 - NPN Junction Transistor
+
 ![Figure 1](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/NPN_BJT_-_Structure_%26_circuit.svg/250px-NPN_BJT_-_Structure_%26_circuit.svg.png"Structure and use of NPN transistor.")
 Figure 1 - Structure and use of NPN transistor.
 
 - PNP Junction Transistor
+
 ![Figure 2](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/PNP_BJT_-_Structure_%26_circuit.svg/250px-PNP_BJT_-_Structure_%26_circuit.svg.png"Structure and use of PNP transistor.")
 Figure 2 - Structure and use of PNP transistor.
 
